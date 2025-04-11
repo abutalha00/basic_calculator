@@ -1,5 +1,0 @@
-#BACKSPACE
-    prompt.lastNumber.remove()
-
-#ADDING TWO NUMBER 
-    n1 + opr + n2
