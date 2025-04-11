@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.calculator {
+  width: 350px;
+  height: auto;
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 35px;
+  background-color: orange;
+  user-select: none;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px;
+}
+
+.row,
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+.icon,
+.title,
+.option,
+.close {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.option,
+.close {
+  width: 35px;
+  height: 35px;
+  background-color: teal;
+  justify-content: center;
+  color: white;
+}
+.close {
+  border-left: 1px solid black;
+  background-color: red;
+}
+
+.row li {
+  width: 80px;
+  height: 80px;
+  background-color: teal;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  gap: 10px;
+}
+
+li.double {
+  width: 160px;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: rgb(1, 106, 106);
+}
+
+.input-section {
+    width: 100%;
+    padding: 10px;
+}
+.prompt,
+.answer {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.prompt {
+    font-size: 3rem;
+}
+
+.answer {
+    font-size: 1.5rem;
+    text-align: right;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+
+    <article class="calculator">
+        <header>
+            <h3 class="title"><span class="icon">&copy;</span>Calculator</h3>
+            <ul>
+                <li class="option" id="option">..</li>
+                <li class="close" id="close">C</li>
+            </ul>
+        </header>
+        <!-- header end  -->
+
+        <section class="input-section">
+            <input type="" class="prompt" id="prompt" value="0" readonly>
+            <input type="number" class="answer" id="answer" value="01" readonly>
+        </section>
+
+        <section class="keyboard">
+            <ul class="row">
+                <li class="clear double" id="clear">C</li>
+                <li class="backspace" id="backspace">B</li>
+                <li id="division">/</li>
+            </ul>
+            <ul class="row">
+                <li class="number">7</li>
+                <li class="number">8</li>
+                <li class="number">9</li>
+                <li id="multiply">*</li>
+            </ul>
+            <ul class="row">
+                <li class="number">4</li>
+                <li class="number">5</li>
+                <li class="number">6</li>
+                <li id="minus">-</li>
+            </ul>
+            <ul class="row">
+                <li class="number">1</li>
+                <li class="number">2</li>
+                <li class="number">3</li>
+                <li id="plus">+</li>
+            </ul>
+            <ul class="row">
+                <li class="number">0</li>
+                <li class="dot number">.</li>
+                <li class="equal double" id="equal">=</li>
+            </ul>
+        </section>
+    </article>
+
+</body>
+
+</html>
