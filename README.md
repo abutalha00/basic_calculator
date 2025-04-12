@@ -16,3 +16,5 @@ This is a basic calculator writen in HTML, CSS and Javascript. You can do any ch
   - close calculator tab
 - Opetion button.click
   - ... (pending)
+
+All actions are finished. but looking further for better improvment in design and features.
